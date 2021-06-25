@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background: url(../images/header-bg.png);
+}
+.navbar-brand img{
+    width: 129px;
+}
+
+.navbar-nav .nav-menu-li a{
+    text-decoration: none;
+}
+.banner-bg img{
+    position: relative;
+}
+.banner-content-box{
+    position: absolute;
+    top: 161px;
+    bottom: 0;
+}
+.banner-heading h1{
+    font-size: 31px;
+}
+.menu-ul{
+    width: 100%;
+    display: contents;
+}
+.nav-menu-li{
+    list-style-type: none;
+    display: inline;
+}
+.nav-menu-li button{
+    border-radius: 20px;
+    background: rgba(38, 163, 158, 1);
+}
+.banner-section{
+    background: url(../images/banner-bg-mb.png) no-repeat;
+    background-size: cover;
+}
+.banner-btn{
+    background: white;
+    color: rgb(88, 127, 189);
+    border-radius: 50px;
+    width: 233px;
+}
+.about-left h2{
+    color:rgba(28, 93, 197, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.border-bottom-about{
+    border-bottom: 3px solid rgba(28, 93, 197, 1);
+    width: 56px;
+    height: 2px;
+}
+.btn-blue{
+    border-radius: 50px;
+    background: rgba(28, 93, 197, 1);
+    font-family: 
+    Proxima Nova;
+}
+.about-p{
+    color: rgba(64, 64, 64, 1);
+    line-height: 26px;
+    font-size: 17px;
+    font-family: 
+    Proxima Nova;
+}
+.services-section{
+    background: url(../images/rectangle-mb.png);
+    background-size: 100% 100%;
+}
+.services-section h2{
+    color:rgba(28, 93, 197, 1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.service-three-col{
+    border-radius: 8px;
+    height: 442px;
+    min-height: 442px;
+}
+
+.service-three-col img{
+    border-radius: 8px 8px 0px 0px;
+}
+.service-three-col h6{
+    color: rgba(28, 93, 197, 1);
+    font-family: Proxima Nova;
+}
+.service-three-col p{
+    font-family: Proxima Nova;
+    color: rgba(64, 64, 64, 1);
+}
+.three-col button{
+    background: rgba(28, 93, 197, 1);
+    border-radius: 20px;
+}
+.partner-section h2{
+    color:rgba(28, 93, 197, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+}
+.partner-btn{
+    background: none;
+    border: 1px solid rgba(28, 93, 197, 1);
+    border-radius: 20px;
+    color: rgba(28, 93, 197, 1);
+    font-weight: 700;
+}
+.partnertop{
+    background: url(../images/Rectangle-1.png) no-repeat center /cover;
+    width: 298px;
+    min-width: 298px;
+}
+@media(max-width:667px){
+    .nav-menu span{
+        visibility: hidden;
+    }
+}
+@media(min-width:992px){
+    .navbar-brand img{
+        width: 160px;
+    } 
+    .banner-heading h1{
+        font-size: 48px;
+        font-weight: 700;
+    }  
+    .about-right{
+        position: relative;
+    }
+    .about-right-img{
+        position: absolute;
+        right: -120px;
+        top: -134px;
+        border-radius: 10px;
+        height: 325px;
+        width: 503px;
+    }
+    .banner-section{
+        background: url(../images/banner.png) no-repeat;
+        background-size: cover;
+    }
+    .services-section{
+        background: url(../images/rectangle.png);
+        background-size: 100% 100%;
+    }
+}
