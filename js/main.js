@@ -19,10 +19,6 @@ $(document).ready(function() {
         }
     });
     $('.navbar-toggler').click(function() {
-        $('.collapse').fadeToggle(1000);
+        $('.collapse').fadeToggle();
     });
-    $('.navbar-toggler').click(function(){
-        $('body').css('background', 'rgba(0,0,0,0.4)')
-    });
-    $('body').css('background', 'none')
 });
