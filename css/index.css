@@ -104,15 +104,11 @@ header{
 .btn-blue{
     border-radius: 50px;
     background: rgba(28, 93, 197, 1);
-    font-family: 
-    Proxima Nova;
 }
 .about-p{
     color: rgba(64, 64, 64, 1);
     line-height: 26px;
     font-size: 17px;
-    font-family: 
-    Proxima Nova;
 }
 .services-section{
     background: url(../images/rectangle-mb.png);
@@ -171,6 +167,11 @@ header{
 .carousel-section {
     background: rgba(248, 248, 248, 1);
 }
+.white-bg img{
+    max-width: 70px;
+    margin: auto;
+    
+}
 .top-small{
     background: url(../images/top-bg-mb.png) no-repeat ;
     background-size: cover;
@@ -180,12 +181,47 @@ header{
     background-size: cover;
 }
 .white-bg{
-    width: 131px;
-    min-width: 131px;
-    min-height: 131px;
-    height: 131px;
-    background: white;
-    border-radius: 131px;
+    background: #ffffff;
+    max-width: 93px;
+    border-radius: 83px;
+    max-height: 93px;
+    width: 93px;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.owl-carousel .owl-item img {
+    width: auto;
+}
+.owl-carousel .owl-nav .owl-next span{
+    position: absolute;
+    top: -19px;
+    right: -25px;
+    font-size: 71px;
+    color: #8aabdf;
+
+}
+.owl-carousel .owl-nav .owl-prev span{
+    position: absolute;
+    top: -19px;
+    left: -25px;
+    font-size: 71px;
+    color: #8aabdf;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+    display: inline !important;
+}
+.owl-carousel .owl-dots button{
+    display: none !important;
+}
+.carousel-section h2{
+    color:rgba(28, 93, 197, 1);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
 }
 .sign-section{
     background: rgba(28, 93, 197, 1);
@@ -214,10 +250,22 @@ footer{
     border-radius: 50%;
     height: 34px;
 }
-.footer-ul li{
-    list-style: none;
-    border-top: 1px solid white;
-}
+.iconts-2 { 
+    background: white;
+    width: 14%;
+    border-radius: 50%;
+    height: 32px;
+    }
+    .footer-news li{
+        list-style: none;
+    }
+    .footer-lg {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .input-div{
+        border-radius: 20px;
+    }
 @media(max-width:667px){
     .nav-menu .re{
         display: none;
@@ -234,6 +282,11 @@ footer{
      .news:hover .sub-menu li{
         display:block;
     }
+    .footer-ul li{
+        list-style: none;
+        border-top: 1px solid white;
+    }
+    
 }
 @media(min-width:992px){
     .navbar-brand img{
@@ -284,10 +337,41 @@ footer{
     .top-small-lg{
         background: url(../images/top-bg.png);
     }
-    .carousel-section h2{
-        color:rgba(28, 93, 197, 1);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 49px;
+    .white-bg{
+        background: #ffffff;
+        max-width: 140px;
+        border-radius: 83px;
+        max-height: 140px;
+        width: 140px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .white-bg img{
+        max-width: 100px;
+        margin: auto;
+        
+    }
+    .owl-carousel .owl-item img {
+        width: auto;
+    }
+    .owl-carousel .owl-nav .owl-next span{
+        position: absolute;
+        top: 5px;
+        right: -35px;
+        font-size: 71px;
+        color: #8aabdf;
+    }
+    .owl-carousel .owl-nav .owl-prev span{
+        position: absolute;
+        top: 5px;
+        left: -35px;
+        font-size: 71px;
+        color: #8aabdf;
+    }
+    .footer-news li{
+        list-style: none;
     }
 }
