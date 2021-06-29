@@ -282,6 +282,9 @@ footer{
     background: rgba(38, 163, 158, 1);
 }
 
+.show{
+    left: 0;
+}
 @media(max-width:667px){
     .nav-menu .re{
         display: none;

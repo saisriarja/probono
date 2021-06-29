@@ -22,6 +22,5 @@ $(document).ready(function() {
        if( $('.collapse').hasClass('show')){
             $('.collapse').removeClass('show')
        }else($('.collapse').addClass('show'))
-       $('.collapse').css('margin-left', '0')
     });
 });
