@@ -57,6 +57,9 @@ header{
 .sub-menu li{
     list-style: none;
 }
+.news:hover .sub-menu li{
+    display:block;
+}
 .banner-bg img{
     position: relative;
 }
@@ -255,17 +258,30 @@ footer{
     width: 14%;
     border-radius: 50%;
     height: 32px;
-    }
-    .footer-news li{
-        list-style: none;
-    }
-    .footer-lg {
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    .input-div{
-        border-radius: 20px;
-    }
+}
+.footer-news li{
+    list-style: none;
+}
+.footer-lg {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.inp-div {
+    border-radius: 50px;
+}
+.inp-div input{
+    border-radius: 50px;
+    height: 50px;
+    min-height: 50px;
+}
+.inp-btn button{
+    height: 50px;
+    width: 140px;
+    margin-left: -56px;
+    border-radius: 26px;
+    background: rgba(38, 163, 158, 1);
+}
+
 @media(max-width:667px){
     .nav-menu .re{
         display: none;
@@ -279,9 +295,7 @@ footer{
         display: none;
         list-style: none;
     }
-     .news:hover .sub-menu li{
-        display:block;
-    }
+    
     .footer-ul li{
         list-style: none;
         border-top: 1px solid white;
