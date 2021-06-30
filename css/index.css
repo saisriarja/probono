@@ -287,9 +287,8 @@ footer{
     border-radius: 26px;
     background: rgba(38, 163, 158, 1);
 }
-
-.show{
-    left: 0;
+.collapse:not(.show){
+    left: -100% !important;
 }
 @media(min-width:768px){
     .sub-menu li{
@@ -335,6 +334,15 @@ footer{
     .navbar-brand img{
         width: 160px;
     } 
+    .news .sub-menu li{
+        display:block;
+        margin-right: 38px;
+    }
+    .sub-menu li {
+        border-bottom: none;
+        display: none;
+        list-style: none;
+    }
     .border-bottom-menu{
         border-bottom: 2px solid white;
         width: 38px;
