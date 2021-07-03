@@ -18,9 +18,20 @@ $(document).ready(function() {
             }
         }
     });
+    // $('.header-search-wrapper .search-main').click(function() {
+    //     $('.search-form-main').toggleClass('active-search');
+    //     $('.search-form-main .search-field').focus();
+    // });
+    // $('.search').click( function(){
+    //     $('.search-div-1').toggleClass('search-div');
+    // })
     $('.navbar-toggler').on('click', function(){
-       if( $('.collapse').hasClass('show')){
-            $('.collapse').removeClass('show')
-       }else($('.collapse').addClass('show'))
+       if( $('.collapsee').hasClass('show')){
+            $('.collapsee').removeClass('show');
+            $('navbar-dark').removeClass('mob-nav-bg');
+       }else{
+           $('.collapsee').addClass('show')
+            $('.navbar-dark').addClass('mob-nav-bg')
+            }
     });
 });
