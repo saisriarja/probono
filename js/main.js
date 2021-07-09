@@ -25,8 +25,10 @@ $(document).ready(function() {
         //  if($(".search-section").is(":visible")) {
         //     $('.search').css('background', 'rgba(16, 57, 123, 1)'); 
         // }
-     })
-     
+     });
+     $('.search-time').click(function(){
+        $('.search-section').hide();
+     });
 
     $('.navbar-toggler').on('click', function(){
        if( $('.collapsee').hasClass('show')){
