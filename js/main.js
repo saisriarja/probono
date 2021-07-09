@@ -18,17 +18,16 @@ $(document).ready(function() {
             }
         }
     });
-    // $('.header-search-wrapper .search-main').click(function() {
-    //     $('.search-form-main').toggleClass('active-search');
-    //     $('.search-form-main .search-field').focus();
-    // });
-    // $('.search').click( function(){
-    //     $('.search-div-1').toggleClass('search-div');
-    // })
+    $('.search-section').hide()
+     $('.search').click(function(){
+         $('.search').css('background', 'rgba(16, 57, 123, 1)');
+         $('.search-section').toggle();
+     })
+
     $('.navbar-toggler').on('click', function(){
        if( $('.collapsee').hasClass('show')){
             $('.collapsee').removeClass('show');
-            $('navbar-dark').removeClass('mob-nav-bg');
+            $('.navbar-dark').removeClass('mob-nav-bg');
        }else{
            $('.collapsee').addClass('show')
             $('.navbar-dark').addClass('mob-nav-bg')
