@@ -296,7 +296,7 @@ footer{
 }
 .inp-btn button{
     height: 50px;
-    width: 140px;
+    width: 158px;
     margin-left: -56px;
     border-radius: 26px;
     background: rgba(38, 163, 158, 1);
@@ -521,10 +521,13 @@ footer{
     border: none;
     color: white;
 }
-::placeholder{
+.search-section ::placeholder{
     color: white;
     font-size: 17px;
 }
 .border-bottom{
     border-bottom: 1px solid white;
+}
+.search:hover{
+   background: rgba(16, 57, 123, 1);
 }

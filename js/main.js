@@ -18,11 +18,15 @@ $(document).ready(function() {
             }
         }
     });
-    $('.search-section').hide()
+    $('.search-section').hide();
+    // $('.search').css('background', 'none');
      $('.search').click(function(){
-         $('.search').css('background', 'rgba(16, 57, 123, 1)');
          $('.search-section').toggle();
+        //  if($(".search-section").is(":visible")) {
+        //     $('.search').css('background', 'rgba(16, 57, 123, 1)'); 
+        // }
      })
+     
 
     $('.navbar-toggler').on('click', function(){
        if( $('.collapsee').hasClass('show')){
